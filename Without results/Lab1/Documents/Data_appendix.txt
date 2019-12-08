@@ -1,0 +1,2 @@
+The data have been collected from Global Historical Climatology Network website and are described in metadata.txt.
+Scripts in Command Files convert the data into "csv" file format, delete empty or corrupted rows and save the processed files in Analysis Data folder.
