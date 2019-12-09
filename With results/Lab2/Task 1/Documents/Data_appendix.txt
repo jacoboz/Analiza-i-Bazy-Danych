@@ -1,17 +1,2 @@
 The data have been collected from Global Historical Climatology Network website and are described in metadata.txt.
 Scripts in Command Files convert the data into "csv" file format, delete empty or corrupted rows and save the processed files in Analysis Data folder.
-
-
-Data Dictionary 
-Column: DATA
-Data Type: String 
-Description: The date in wchich the measurement was taken.
-Format: yyyy-mm-dd
-
-Column: TMAX
-Data Type: Int
-Description: The highest temperature of the day.
-
-Column: TMIN
-Data Type: Int
-Description: The lowest temperature of the day. 
