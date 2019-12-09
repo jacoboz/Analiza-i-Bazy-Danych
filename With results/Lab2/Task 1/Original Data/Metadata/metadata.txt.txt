@@ -1,0 +1,16 @@
+Weather Metadata Guide
+
+This directory contains the data from Global Historical Climatology Network for one specific weather station (MX17004) taken in Mexico for five months in 2010. 
+weather.txt file contains following variables:
+In columns:
+- id
+- year
+- month
+- day from d1 to d31
+In rows
+- tmin
+- tmax
+- prcp
+
+Month that is shorter that 31 days is lacking the value for the dast day(days).
+Column called element is not a variable, it contains the variables names itself.
